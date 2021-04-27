@@ -7,6 +7,7 @@ TagManager:
   - NPC
   - Map
   - SlotCheck
+  - InventoryManager
   layers:
   - Default
   - TransparentFX
@@ -43,4 +44,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Wall
+    uniqueID: 2397184495
+    locked: 0
+  - name: Ground
+    uniqueID: 1164225879
+    locked: 0
+  - name: CellInner
+    uniqueID: 2512899263
+    locked: 0
+  - name: CellOuter
+    uniqueID: 1559508867
+    locked: 0
+  - name: Normal
+    uniqueID: 3975769881
     locked: 0

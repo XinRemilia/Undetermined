@@ -10,7 +10,7 @@ public class Weapon : MonoBehaviour
     //public float interval = 0.5f;
     public float resetAttack;
 
-    public Item currWeapon;
+    public cItem currWeapon;
     void Start()
     {
         resetAttack = currWeapon.coolDownTime;
@@ -28,7 +28,7 @@ public class Weapon : MonoBehaviour
         {
             Instantiate(currWeapon.itemPrefabe, firePoint.position, firePoint.rotation);
             currWeapon.itemHeldNumber--;
-            InventoryManager.RefreshItem();
+            cInventoryManager.RefreshItem();
             resetAttack = 0;
         }
 
